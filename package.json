@@ -1,0 +1,18 @@
+{
+  "name": "algorathapinode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon src/index.js"
+  },
+  "author": "Francisco Martin",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongoose": "^5.1.1",
+    "nodemon": "^1.17.4"
+  }
+}
